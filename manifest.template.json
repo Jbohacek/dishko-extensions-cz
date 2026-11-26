@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "id": "cz-recepty",
+  "name": "České receptové weby",
+  "description": "Dishko rozšíření pro české receptové weby: Prima Fresh, TopRecepty.cz, Miluji vaření, Apetit a Prima Inspirace.",
+  "homepage": "https://github.com/Jbohacek/dishko-extensions-cz",
+  "extensions": [
+    {
+      "id": "cz.fresh-iprima",
+      "name": "Prima Fresh",
+      "version": "1.0.0",
+      "apiVersion": 1,
+      "lang": "cs",
+      "scriptFile": "extensions/cz.fresh-iprima.js",
+      "allowedDomains": ["fresh.iprima.cz"],
+      "capabilities": ["browse", "search", "filters"]
+    },
+    {
+      "id": "cz.toprecepty",
+      "name": "TopRecepty.cz",
+      "version": "1.0.0",
+      "apiVersion": 1,
+      "lang": "cs",
+      "scriptFile": "extensions/cz.toprecepty.js",
+      "allowedDomains": ["www.toprecepty.cz", "toprecepty.cz"],
+      "capabilities": ["browse", "search", "filters"]
+    },
+    {
+      "id": "cz.milujivareni",
+      "name": "Miluji vaření",
+      "version": "1.0.0",
+      "apiVersion": 1,
+      "lang": "cs",
+      "scriptFile": "extensions/cz.milujivareni.js",
+      "allowedDomains": ["www.milujivareni.cz", "milujivareni.cz"],
+      "capabilities": ["browse", "search", "filters"]
+    },
+    {
+      "id": "cz.apetitonline",
+      "name": "Apetit",
+      "version": "1.0.0",
+      "apiVersion": 1,
+      "lang": "cs",
+      "scriptFile": "extensions/cz.apetitonline.js",
+      "allowedDomains": ["www.apetitonline.cz", "apetitonline.cz"],
+      "capabilities": ["browse", "filters"]
+    },
+    {
+      "id": "cz.primainspirace",
+      "name": "Prima Inspirace",
+      "version": "1.0.0",
+      "apiVersion": 1,
+      "lang": "cs",
+      "scriptFile": "extensions/cz.primainspirace.js",
+      "allowedDomains": ["primainspirace.cz", "www.primainspirace.cz"],
+      "capabilities": ["browse", "search", "filters"]
+    }
+  ]
+}
